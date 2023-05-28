@@ -871,6 +871,18 @@ footer .copyright {
         width: 100%;
     }
 
+    /*about page */ 
+    #about-head {
+        flex-direction: column;
+    }
+    #about-head img {
+        width: 100%;
+    }
+    #about-head div {
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+
 }
 
 
@@ -996,4 +1008,34 @@ footer .copyright {
 
 #blog .blog-details a:hover::after {
     background-color:coral;
+}
+
+
+
+
+/* About Page */
+
+#page-header.about-header {
+    background-image: url("img/about/banner.png");
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    padding: 14px;
+}
+
+#about-head {
+    display: flex;
+    align-items: center;
+}
+
+#about-head img {
+    width: 50%;
+    height: auto;
+}
+
+#about-head div {
+    padding-left: 40px;
 }
